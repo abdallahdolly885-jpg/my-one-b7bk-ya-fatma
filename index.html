@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<title>7onsho — Our Little Museum</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0a0909">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home-page">
+  <div class="intro" id="intro">
+    <div class="intro__content">
+      <span class="intro__overline">A LITTLE WORLD THAT BELONGS TO US</span>
+      <h1>7onsho</h1>
+      <p class="intro__number">245249</p>
+      <p class="intro__wish">I want u to stay</p>
+      <button class="button button--outline" id="enterMuseum">ادخل الحكاية <span>↙</span></button>
+    </div>
+    <span class="intro__index">PRIVATE ARCHIVE · EST. FOREVER</span>
+  </div>
+
+  <main id="homeContent" class="home-content is-hidden">
+    <header class="site-header">
+      <a class="wordmark" href="index.html">7onsho<span>®</span></a>
+      <span class="header-note">OUR LITTLE MUSEUM</span>
+      <a class="header-number" href="#rooms">245249 <span>↙</span></a>
+    </header>
+
+    <section class="home-hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> ARCHIVE NO. 245249</p>
+        <h2>Some things<br>deserve <em>their own place.</em></h2>
+        <p class="hero-arabic">في حكايات تستاهل يبقى ليها مكان لوحدها.</p>
+        <a class="text-link" href="#podcast">ابدأ من هنا <span>↓</span></a>
+      </div>
+      <figure class="childhood-frame">
+        <div class="frame-corner frame-corner--tl"></div><div class="frame-corner frame-corner--br"></div>
+        <img src="./0 (1).jfif" alt="صورتنا وإحنا صغيرين" class="portrait-image" onerror="this.classList.add('image-missing')">
+        <div class="image-placeholder"><span>01 / A MEMORY</span><strong>صورتكم وإنتوا صغيرين</strong><small>assets/images/childhood.jpg</small></div>
+        <figcaption><span>THE VERY BEGINNING</span><span>ya deney 3la el3zma</span></figcaption>
+      </figure>
+      <div class="hero-vertical-note">A STORY THAT STARTED BEFORE WE KNEW</div>
+    </section>
+
+    <section class="podcast-section" id="podcast">
+      <div class="section-topline"><span>01 — THE INTRODUCTION</span><span>حبيب ست الكل يقدم</span></div>
+      <div class="podcast-title">
+        <p>الوحي نزل عليا وطلعت العظمة دي</p>
+        <h2>حبيب ست الكل <em>يقدم</em></h2>
+      </div>
+      <div class="video-frame">
+        <video id="podcastVideo" controls playsinline preload="metadata" poster="./0 (1).jfif">
+          <source src="./WhatsApp Video 2026-10-09 at 6.56.28 PM.mp4" type="video/mp4">
+        </video>
+        <div class="video-placeholder" id="videoPlaceholder"><span class="play-symbol">▶</span><strong>THE CONVERSATION</strong><small>ضع الفيديو باسم podcast.mp4 داخل assets/video/</small></div>
+      </div>
+      <p class="podcast-caption">حوار صغير… وراه حكاية طويلة.</p>
+    </section>
+
+    <section class="rooms-index" id="rooms">
+      <div class="rooms-index-heading">
+        <p class="eyebrow"><span class="eyebrow-line"></span> WALK THROUGH OUR MEMORIES</p>
+        <h2>خمس أوض.<br><em>حكاية واحدة.</em></h2>
+        <p>كل باب هيفتحلك حتة مختلفة من الحكاية.</p>
+      </div>
+      <div class="room-cards">
+        <a class="room-card room-card--1" href="room-1.html">
+          <span class="room-card__number">ROOM 01</span>
+          <div class="room-card__image"><img src="./1.jpg" alt="" class="portrait-image" onerror="this.classList.add('image-missing')"><span class="card-image-fallback">01</span></div>
+          <div class="room-card__bottom"><div><small>THE BEGINNING</small><h3>أول الحكاية</h3></div><span class="card-arrow">↗</span></div>
+        </a>
+        <a class="room-card room-card--2" href="room-2.html">
+          <span class="room-card__number">ROOM 02</span>
+          <div class="room-card__image"><img src="./lma (1).jfif" alt="" class="portrait-image" onerror="this.classList.add('image-missing')"><span class="card-image-fallback">02</span></div>
+          <div class="room-card__bottom"><div><small>THE DISTANCE</small><h3>لما غبنا</h3></div><span class="card-arrow">↗</span></div>
+        </a>
+        <a class="room-card room-card--3" href="room-3.html">
+          <span class="room-card__number">ROOM 03</span>
+          <div class="room-card__image"><img src="./0 (11).jpeg" alt="" class="portrait-image" onerror="this.classList.add('image-missing')"><span class="card-image-fallback">03</span></div>
+          <div class="room-card__bottom"><div><small>BACK TOGETHER</small><h3>فرصة تانية</h3></div><span class="card-arrow">↗</span></div>
+        </a>
+        <a class="room-card room-card--4" href="room-4.html">
+          <span class="room-card__number">ROOM 04</span>
+          <div class="room-card__image"><img src="./WhatsApp Image 2026-10-09 at 6.51.27 PM.jpeg" alt="" class="portrait-image" onerror="this.classList.add('image-missing')"><span class="card-image-fallback">04</span></div>
+          <div class="room-card__bottom"><div><small>WHAT I LEARNED</small><h3>اللي اتغيّر فيا</h3></div><span class="card-arrow">↗</span></div>
+        </a>
+        <a class="room-card room-card--final" href="room-5.html">
+          <span class="room-card__number">ROOM 05 · THE LAST ONE</span>
+          <div class="room-card__image"><img src="./0 (2).jfif" alt="" class="portrait-image" onerror="this.classList.add('image-missing')"><span class="card-image-fallback">♡</span></div>
+          <div class="room-card__bottom"><div><small>IN ANOTHER VERSION</small><h3>could be us</h3></div><span class="card-arrow">↗</span></div>
+        </a>
+      </div>
+    </section>
+    <footer class="home-footer"><span>7ONSHO</span><span>245249</span><span>made of memories.</span></footer>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
